@@ -19,6 +19,5 @@ func CreateUser(c *gin.Context) {
 		return
 	}
 
-	fmt.Println("request teste")
 	fmt.Println(userRequest)
 }
