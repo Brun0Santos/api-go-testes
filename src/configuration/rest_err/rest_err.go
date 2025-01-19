@@ -10,7 +10,7 @@ type RestErr struct {
 }
 
 type Causes struct {
-	Field   string `json:"field" example:"nomes"`
+	Field   string `json:"field" example:"names"`
 	Message string `json:"message" example:"name is required"`
 }
 
