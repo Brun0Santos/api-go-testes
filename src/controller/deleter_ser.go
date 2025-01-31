@@ -7,5 +7,5 @@ import (
 )
 
 func DeleteUser(c *gin.Context) {
-	fmt.Println("Deletando user")
+	fmt.Println("Deletando users")
 }
