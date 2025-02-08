@@ -6,7 +6,7 @@ import (
 )
 
 func FindUserByID(c *gin.Context) {
-	err := rest_err.NewBadRequestError("error na mensagem")
+	err := rest_err.NewBadRequestError("error no findbyid")
 	c.JSON(err.Code, err)
 }
 
