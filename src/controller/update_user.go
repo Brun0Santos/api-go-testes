@@ -7,5 +7,5 @@ import (
 )
 
 func UpdateUser(c *gin.Context) {
-	fmt.Println("Router para atualizar user")
+	fmt.Println("Router para atualizar")
 }
