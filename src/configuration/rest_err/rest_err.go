@@ -21,7 +21,7 @@ func (r *RestErr) Error() string {
 func NewBadRequestError(message string) *RestErr {
 	return &RestErr{
 		Message: message,
-		Err:     "bad_request",
+		Err:     "bad_requests",
 		Code:    http.StatusBadRequest,
 	}
 }
