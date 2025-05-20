@@ -2,7 +2,7 @@ package request
 
 type UserRequest struct {
 	Email    string `json:"email" binding:"required,email"`
-	Password string `json:"password" binding:"required,min=11,containsany=!@#$%"`
+	Password string `json:"password" binding:"required,min=19,containsany=!@#$%"`
 	Name     string `json:"name" binding:"required,min=4,max=50"`
 	Age      int8   `json:"age" binding:"required,min=4,max=141"`
 }
